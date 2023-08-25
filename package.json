@@ -1,16 +1,16 @@
 {
   "name": "light-nodes",
-  "version": "v0.11.0-rc8-2",
+  "version": "v0.11.0-rc8-3",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "echo 'Thank you for installing light-nodes. Here are some commands you can use:' && echo ' - Install light node on arabica: npm run arabica' && echo '   - Start light node on arabica: npm run start-a' && echo ' - Install light node on mocha: npm run mocha' && echo '   - Start light node on mocha: npm run start-m'"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bin": {
+    "light-nodes-help": "./bin/help.sh",
     "arabica": "./bin/arabica.sh",
     "start-a": "./bin/start-a.sh",
     "mocha": "./bin/mocha.sh",

@@ -37,6 +37,14 @@ npm uninstall -g light-nodes
 
 After installing the package, you can use the light nodes on the Arabica devnet and Mocha testnet. Here's a basic guide:
 
+### Help
+
+To show the help menu, use:
+
+```bash
+light-nodes-help
+```
+
 ### Arabica
 
 To initialize a light node on the Arabica devnet, use the `arabica` command:
