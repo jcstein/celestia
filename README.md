@@ -21,6 +21,22 @@ To _uninstall_, run:
 yarn global remove light-nodes
 ```
 
+#### Full send on arabica yarn
+
+This installs the package, installs an Arabica light node, and runs it.
+
+```bash
+yarn global add light-nodes && arabica && start-a
+```
+
+#### Full send on mocha with yarn
+
+This installs the package, installs an Mocha light node, and runs it.
+
+```bash
+yarn global add light-nodes && mocha && start-m
+```
+
 ### NPM
 
 ```bash
@@ -31,6 +47,22 @@ To _uninstall_, run:
 
 ```bash
 npm uninstall -g light-nodes
+```
+
+#### Full send on arabica npm
+
+This installs the package, installs an Arabica light node, and runs it.
+
+```bash
+npm i -g light-nodes && arabica && start-a
+```
+
+#### Full send on mocha with npm
+
+This installs the package, installs an Mocha light node, and runs it.
+
+```bash
+npm i -g add light-nodes && mocha && start-m
 ```
 
 ## Usage
