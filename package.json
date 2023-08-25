@@ -1,6 +1,6 @@
 {
   "name": "light-nodes",
-  "version": "v0.11.0-rc8-+-v0.11.0-rc8-arabica-improvements",
+  "version": "v0.11.0-rc8-1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jcstein/celestia.git"
+    "url": "https://github.com/jcstein/light-nodes.git"
   }
 }

@@ -15,8 +15,52 @@ You can install the package globally using the following command:
 yarn add -g light-nodes
 ```
 
+To _uninstall_, run:
+
+```bash
+yarn global remove light-nodes
+```
+
 ### NPM
 
 ```bash
 npm i -g light-nodes
+```
+
+To _uninstall_, run:
+
+```bash
+npm uninstall -g light-nodes
+```
+
+## Usage
+
+After installing the package, you can use the light nodes on the Arabica devnet and Mocha testnet. Here's a basic guide:
+
+### Arabica
+
+To initialize a light node on the Arabica devnet, use the `arabica` command:
+
+```bash
+arabica
+```
+
+Then start the node:
+
+```bash
+start-a
+```
+
+### Mocha
+
+To initialize a light node on the Arabica devnet, use the `mocha` command:
+
+```bash
+mocha
+```
+
+Then start the node:
+
+```bash
+start-m
 ```
