@@ -15,13 +15,7 @@ You can install the package globally using the following command:
 yarn global add light-nodes
 ```
 
-To _uninstall_, run:
-
-```bash
-yarn global remove light-nodes
-```
-
-#### Full send on arabica yarn
+#### Full send on Arabica with yarn
 
 This installs the package, installs an Arabica light node, and runs it.
 
@@ -29,12 +23,20 @@ This installs the package, installs an Arabica light node, and runs it.
 yarn global add light-nodes && arabica && start-a
 ```
 
-#### Full send on mocha with yarn
+#### Full send on Mocha with yarn
 
-This installs the package, installs an Mocha light node, and runs it.
+This installs the package, installs a Mocha light node, and runs it.
 
 ```bash
 yarn global add light-nodes && mocha && start-m
+```
+
+#### Uninstall with yarn
+
+To _uninstall_, run:
+
+```bash
+yarn global remove light-nodes
 ```
 
 ### NPM
@@ -43,13 +45,7 @@ yarn global add light-nodes && mocha && start-m
 npm i -g light-nodes
 ```
 
-To _uninstall_, run:
-
-```bash
-npm uninstall -g light-nodes
-```
-
-#### Full send on arabica npm
+#### Full send on Arabica with npm
 
 This installs the package, installs an Arabica light node, and runs it.
 
@@ -57,17 +53,26 @@ This installs the package, installs an Arabica light node, and runs it.
 npm i -g light-nodes && arabica && start-a
 ```
 
-#### Full send on mocha with npm
+#### Full send on Mocha with npm
 
-This installs the package, installs an Mocha light node, and runs it.
+This installs the package, installs a Mocha light node, and runs it.
 
 ```bash
 npm i -g add light-nodes && mocha && start-m
 ```
 
+#### Uninstall with NPM
+
+To _uninstall_, run:
+
+```bash
+npm uninstall -g light-nodes
+```
+
 ## Usage
 
-After installing the package, you can use the light nodes on the Arabica devnet and Mocha testnet. Here's a basic guide:
+After installing the package, you can use the light nodes on the Arabica devnet
+and Mocha testnet. Here's a basic guide:
 
 ### Help
 
@@ -93,7 +98,7 @@ start-a
 
 ### Mocha
 
-To initialize a light node on the Arabica devnet, use the `mocha` command:
+To initialize a light node on the Mocha devnet, use the `mocha` command:
 
 ```bash
 mocha
