@@ -1,0 +1,23 @@
+{
+  "name": "light-nodes",
+  "version": "v0.11.0-rc8-+-v0.11.0-rc8-arabica-improvements",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "echo 'Thank you for installing light-nodes. Here are some commands you can use:' && echo ' - Install light node on arabica: npm run arabica' && echo '   - Start light node on arabica: npm run start-a' && echo ' - Install light node on mocha: npm run mocha' && echo '   - Start light node on mocha: npm run start-m'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "arabica": "./bin/arabica.sh",
+    "start-a": "./bin/start-a.sh",
+    "mocha": "./bin/mocha.sh",
+    "start-m": "./bin/start-m.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jcstein/celestia.git"
+  }
+}
