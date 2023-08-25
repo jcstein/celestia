@@ -1,7 +1,6 @@
 #!/bin/bash
 set -e
 
-echo ""
 echo "🔍  Determining OS and architecture..."
 
 OS=$(uname -s | tr '[:upper:]' '[:lower:]')
@@ -21,7 +20,6 @@ CELESTIA_NODE_VERSION="v0.11.0-rc8"
 
 echo "🐹  Golang version required for Mocha: $GOLANG_VERSION"
 echo "🌌  Celestia Node version required for Mocha: $CELESTIA_NODE_VERSION"
-echo ""
 
 # Check if Golang is installed and the version matches
 INSTALLED_GOLANG_VERSION=$(go version | awk '{print $3}' 2>/dev/null || echo "")
@@ -80,15 +78,9 @@ then
 else
     echo "✅  Celestia Node is already installed and the version matches."
 fi
-echo ""
 
 # Instantiate a Celestia light node
-echo ""
 echo "🚀  Instantiating a Celestia light node..."
-echo ""
 celestia light init --p2p.network mocha > /dev/null
-echo ""
 
-echo ""
 echo "🎉  Installation complete! You can now use Celestia Node from your terminal by running \"start-m\"."
-echo ""

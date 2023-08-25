@@ -12,7 +12,7 @@ You can install the package globally using the following command:
 ### Yarn
 
 ```bash
-yarn add -g light-nodes
+yarn global add light-nodes
 ```
 
 To _uninstall_, run:
