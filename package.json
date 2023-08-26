@@ -1,6 +1,6 @@
 {
   "name": "light-nodes",
-  "version": "v0.11.0-rc8-stable",
+  "version": "v0.11.0-rc8-beta",
   "description": "",
   "main": "index.js",
   "scripts": {
