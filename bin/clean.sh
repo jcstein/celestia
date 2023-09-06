@@ -3,7 +3,7 @@
 # Define the paths to the items to be deleted
 CELESTIA_BINARY="$HOME/go/bin/celestia"
 CELESTIA_NODE="$HOME/celestia-node"
-DATA_STORE_ARABICA="$HOME/.celestia-light-arabica-9"
+DATA_STORE_ARABICA="$HOME/.celestia-light-arabica-10"
 DATA_STORE_MOCHA="$HOME/.celestia-light-mocha-3"
 
 # Delete the Celestia binary, Celestia Node, and the data stores
