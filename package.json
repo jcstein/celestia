@@ -12,9 +12,10 @@
   "bin": {
     "light-nodes-help": "./bin/help.sh",
     "mainnet": "./bin/mainnet.sh",
+    "start": "./bin/start.sh",
     "arabica": "./bin/arabica.sh",
     "mocha": "./bin/mocha.sh",
-    "clean-light-nodes": "./bin/clean.sh",
+    "clean-light-nodes": "./bin/clean.sh"
   },
   "repository": {
     "type": "git",
