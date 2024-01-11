@@ -2,8 +2,9 @@
 
 This package is designed for running light nodes on the Arabica devnet and Mocha testnet. It is currently in development, but can be used with the following versions:
 
-- Arabica: [v0.11.0-rc12](https://github.com/celestiaorg/celestia-node/releases/tag/v0.11.0-rc12)
-- Mocha: [v0.11.0-rc12](https://github.com/celestiaorg/celestia-node/releases/tag/v0.11.0-rc12)
+- Mainnet: [v0.12.3](https://github.com/celestiaorg/celestia-node/releases/tag/v0.12.3)
+- Arabica: [v0.12.3](https://github.com/celestiaorg/celestia-node/releases/tag/v0.12.3)
+- Mocha: [v0.12.3](https://github.com/celestiaorg/celestia-node/releases/tag/v0.12.3)
 
 It was built on macOS for macOS and Linux.
 
@@ -17,20 +18,28 @@ You can install the package globally using the following command:
 yarn global add light-nodes
 ```
 
-#### Full send on Arabica with yarn
+#### Start a node on Mainnet with yarn
 
-This installs the package, installs an Arabica light node, and runs it.
+This installs the package, installs a Mainnet Beta light node, and runs it.
 
 ```bash
-yarn global add light-nodes && arabica && start-a
+yarn global add light-nodes && mainnet && start
 ```
 
-#### Full send on Mocha with yarn
+#### Start a node on Mocha with yarn
 
-This installs the package, installs a Mocha light node, and runs it.
+This installs the package, installs a Mocha Testnet light node, and runs it.
 
 ```bash
 yarn global add light-nodes && mocha && start-m
+```
+
+#### Start a node on Arabica with yarn
+
+This installs the package, installs a Arabica Devnet light node, and runs it.
+
+```bash
+yarn global add light-nodes && arabica && start-a
 ```
 
 #### Uninstall with yarn
@@ -47,15 +56,23 @@ yarn global remove light-nodes
 npm i -g light-nodes
 ```
 
-#### Full send on Arabica with npm
+#### Start a node on Mainnet with npm
 
-This installs the package, installs an Arabica light node, and runs it.
+This installs the package, installs an Mainnet light node, and runs it.
 
 ```bash
-npm i -g light-nodes && arabica && start-a
+npm i -g light-nodes && mainnet && start
 ```
 
-#### Full send on Mocha with npm
+#### Start a light node on Arabica with npm
+
+This installs the package, installs a Arabica light node, and runs it.
+
+```bash
+npm i -g add light-nodes && arabica && start-a
+```
+
+#### Start a light node on Mocha with npm
 
 This installs the package, installs a Mocha light node, and runs it.
 
@@ -73,7 +90,7 @@ npm uninstall -g light-nodes
 
 ## Usage
 
-After installing the package, you can use the light nodes on the Arabica devnet
+After installing the package, you can use the light nodes on Mainnet Beta, Arabica Devnet,
 and Mocha testnet. Here's a basic guide:
 
 ### Help
@@ -84,18 +101,18 @@ To show the help menu, use:
 light-nodes-help
 ```
 
-### Arabica
+### Mainnet
 
-To initialize a light node on the Arabica devnet, use the `arabica` command:
+To initialize a light node on the Mainnet Beta, use the `mainnet` command:
 
 ```bash
-arabica
+mainnet
 ```
 
 Then start the node:
 
 ```bash
-start-a
+start
 ```
 
 ### Mocha
@@ -112,6 +129,20 @@ Then start the node:
 start-m
 ```
 
+### Arabica
+
+To initialize a light node on the Arabica devnet, use the `arabica` command:
+
+```bash
+arabica
+```
+
+Then start the node:
+
+```bash
+start-a
+```
+
 ## Cleanup
 
 To remove all files associated with light-nodes, use the `clean-light-nodes` command:
@@ -125,8 +156,9 @@ This removes:
 ```bash
 CELESTIA_BINARY="$HOME/go/bin/celestia"
 CELESTIA_NODE="$HOME/celestia-node"
-DATA_STORE_ARABICA="$HOME/.celestia-light-arabica-10"
-DATA_STORE_MOCHA="$HOME/.celestia-light-mocha-3"
+DATA_STORE_ARABICA="$HOME/.celestia-light-arabica-11"
+DATA_STORE_MOCHA="$HOME/.celestia-light-mocha-4"
+DATA_STORE_MAINNET="$HOME/.celestia-light"
 ```
 
 To uninstall Golang, run this in your terminal:

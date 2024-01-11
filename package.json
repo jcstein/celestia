@@ -1,6 +1,6 @@
 {
   "name": "light-nodes",
-  "version": "v0.12.3",
+  "version": "v0.12.3-rc2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,9 @@
     "mainnet": "./bin/mainnet.sh",
     "start": "./bin/start.sh",
     "arabica": "./bin/arabica.sh",
+    "start-a": "./bin/start-a.sh",
     "mocha": "./bin/mocha.sh",
+    "start-m": "./bin/start-m.sh",
     "clean-light-nodes": "./bin/clean.sh"
   },
   "repository": {
