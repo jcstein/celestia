@@ -8,4 +8,4 @@ then
 fi
 echo "🚀  Starting Celestia light node on Mocha Testnet..."
 echo ""
-celestia light start --p2p.network mocha
+celestia light start --p2p.network mocha --core.ip rpc-mocha.pops.one

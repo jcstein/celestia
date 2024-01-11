@@ -28,7 +28,7 @@ yarn global add light-nodes && mainnet && start
 
 #### Start a node on Mocha with yarn
 
-This installs the package, installs a Mocha Testnet light node, and runs it.
+This installs the package, installs a Mocha testnet light node, and runs it.
 
 ```bash
 yarn global add light-nodes && mocha && start-m
@@ -36,7 +36,7 @@ yarn global add light-nodes && mocha && start-m
 
 #### Start a node on Arabica with yarn
 
-This installs the package, installs a Arabica Devnet light node, and runs it.
+This installs the package, installs a Arabica devnet light node, and runs it.
 
 ```bash
 yarn global add light-nodes && arabica && start-a
@@ -90,7 +90,7 @@ npm uninstall -g light-nodes
 
 ## Usage
 
-After installing the package, you can use the light nodes on Mainnet Beta, Arabica Devnet,
+After installing the package, you can use the light nodes on Mainnet Beta, Arabica devnet,
 and Mocha testnet. Here's a basic guide:
 
 ### Help

@@ -8,4 +8,4 @@ then
 fi
 echo "🚀  Starting Celestia light node on Mainnet Beta..."
 echo ""
-celestia light start
+celestia light start --core.ip rpc.celestia.pops.one

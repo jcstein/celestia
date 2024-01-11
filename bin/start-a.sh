@@ -8,4 +8,4 @@ then
 fi
 echo "🚀  Starting Celestia light node on Arabica Devnet..."
 echo ""
-celestia light start --p2p.network arabica
+celestia light start --p2p.network arabica --core.ip validator-1.celestia-arabica-11.com
