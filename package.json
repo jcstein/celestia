@@ -1,6 +1,6 @@
 {
   "name": "light-nodes",
-  "version": "v0.11.0-rc12-celestia-node",
+  "version": "v0.12.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,11 +11,10 @@
   "license": "ISC",
   "bin": {
     "light-nodes-help": "./bin/help.sh",
+    "mainnet": "./bin/mainnet.sh",
     "arabica": "./bin/arabica.sh",
-    "start-a": "./bin/start-a.sh",
     "mocha": "./bin/mocha.sh",
-    "start-m": "./bin/start-m.sh",
-    "clean-light-nodes": "./bin/clean.sh"
+    "clean-light-nodes": "./bin/clean.sh",
   },
   "repository": {
     "type": "git",

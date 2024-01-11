@@ -3,11 +3,12 @@
 # Define the paths to the items to be deleted
 CELESTIA_BINARY="$HOME/go/bin/celestia"
 CELESTIA_NODE="$HOME/celestia-node"
-DATA_STORE_ARABICA="$HOME/.celestia-light-arabica-10"
-DATA_STORE_MOCHA="$HOME/.celestia-light-mocha-3"
+DATA_STORE_ARABICA="$HOME/.celestia-light-arabica-11"
+DATA_STORE_MOCHA="$HOME/.celestia-light-mocha-4"
+DATA_STORE_MAINNET="$HOME/.celestia-light"
 
 # Delete the Celestia binary, Celestia Node, and the data stores
-rm -rf "$CELESTIA_BINARY" "$CELESTIA_NODE" "$DATA_STORE_ARABICA" "$DATA_STORE_MOCHA"
+rm -rf "$CELESTIA_BINARY" "$CELESTIA_NODE" "$DATA_STORE_ARABICA" "$DATA_STORE_MOCHA" "$DATA_STORE_MAINNET"
 
 echo "Cleanup completed."
 

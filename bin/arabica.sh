@@ -16,7 +16,7 @@ echo "💻  OS: $OS"
 echo "🏗️  ARCH: $ARCH"
 
 GOLANG_VERSION="1.21.0"
-CELESTIA_NODE_VERSION="v0.11.0-rc12"
+CELESTIA_NODE_VERSION="v0.12.3"
 
 echo "🐹  Golang version required for Arabica: $GOLANG_VERSION"
 echo "🌌  Celestia Node version required for Arabica: $CELESTIA_NODE_VERSION"
@@ -83,4 +83,4 @@ fi
 echo "🚀  Instantiating a Celestia light node..."
 celestia light init --p2p.network arabica > /dev/null
 
-echo "🎉  Installation complete! You can now use Celestia Node from your terminal by running \"start-a\"."
+echo "🎉  Installation complete! You can now use Celestia Node from your terminal by running \"celestia --help\"."
