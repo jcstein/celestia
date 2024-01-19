@@ -60,7 +60,7 @@ then
     git checkout -q tags/$CELESTIA_NODE_VERSION
 
     echo "🔨  Building Celestia..."
-    make build > /dev/null
+    make build-jemalloc > /dev/null
 
     if [[ "$OS" == "darwin" ]]; then
         echo "🔧  Installing Celestia..."
