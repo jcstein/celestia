@@ -2,9 +2,9 @@
 
 This package is designed for running light nodes on the Arabica devnet and Mocha testnet. It is currently in development, but can be used with the following versions:
 
-- Mainnet: [v0.12.3](https://github.com/celestiaorg/celestia-node/releases/tag/v0.12.3)
-- Arabica: [v0.12.3](https://github.com/celestiaorg/celestia-node/releases/tag/v0.12.3)
-- Mocha: [v0.12.3](https://github.com/celestiaorg/celestia-node/releases/tag/v0.12.3)
+- Mainnet: [v0.12.4](https://github.com/celestiaorg/celestia-node/releases/tag/v0.12.4)
+- Arabica: [v0.12.4](https://github.com/celestiaorg/celestia-node/releases/tag/v0.12.4)
+- Mocha: [v0.12.4](https://github.com/celestiaorg/celestia-node/releases/tag/v0.12.4)
 
 It was built on macOS for macOS and Linux.
 

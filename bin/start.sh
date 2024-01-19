@@ -1,5 +1,5 @@
 #!/bin/bash
-CELESTIA_NODE_VERSION="v0.12.3"
+CELESTIA_NODE_VERSION="v0.12.4"
 INSTALLED_CELESTIA_VERSION=$(celestia version | head -n 1 | awk '{print $3}' 2>/dev/null || echo "")
 if [[ "$INSTALLED_CELESTIA_VERSION" != "$CELESTIA_NODE_VERSION" ]]
 then

@@ -16,7 +16,7 @@ echo "💻  OS: $OS"
 echo "🏗️  ARCH: $ARCH"
 
 GOLANG_VERSION="1.21.6"
-CELESTIA_NODE_VERSION="v0.12.3"
+CELESTIA_NODE_VERSION="v0.12.4"
 
 echo "🐹  Golang version required for Mainnet Beta: $GOLANG_VERSION"
 echo "🌌  Celestia Node version required for Mainnet Beta: $CELESTIA_NODE_VERSION"
